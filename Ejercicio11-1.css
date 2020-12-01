@@ -1,0 +1,72 @@
+/* 1 */
+body{
+    background-color: whitesmoke;
+    font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: black;
+}
+/* 1 */
+h1{
+    background-color:#FFD700; 
+    color: black;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;
+}
+/* 1 */
+a{
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* 10 */
+.icon{
+    width: 50px;
+    height: 50px;
+}
+/* 1 */
+input[type=button]{
+    background-color: #696969;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color:whitesmoke;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 21 */
+input[type=button]:hover{
+    background-color: black;
+}
+/* 11 */
+a:hover{
+    cursor: pointer;
+}
+/* 1 */
+div{
+    text-align: center;
+}
+/* 10 */
+.validator{
+    height:63px;
+    width:64px;
+}
+/* 1 */
+ul{
+    border-left: 5px solid tan;
+    background-color: #f2f2f2;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 75px;
+    text-align: left;
+}
+/* 100 */
+#ubicacion{
+    text-align: center;
+}
