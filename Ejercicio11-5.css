@@ -1,0 +1,29 @@
+/* 100 */
+#mapa {
+    height: 500px;
+    width: 100%;
+}
+/* 1 */
+h1{
+    text-align: center;
+    color: blue;
+}
+/* 1 */
+h2{
+    text-align: center;
+    color: green;
+}
+/* 1 */
+p{
+    text-align: left;
+    color: black;
+}
+/* 1 */
+footer{
+    margin-top:2em;
+}
+/* 10 */
+.validator{
+    height:63px;
+    width:64px;
+}
