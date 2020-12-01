@@ -1,0 +1,67 @@
+/* 1 */
+body{
+    background-color: wheat;
+}
+/* 1 */
+h1{
+    text-align: left;
+    color: black;
+}
+/* 10 */
+.calculadora{
+    border: 3px gainsboro ridge;
+    border-radius: 4%;
+    width: 500px;
+    text-align: center;
+    background-color: gainsboro;
+}
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    width: 11.5em;
+    height: 3em;
+    background-color: gainsboro;
+    overflow-x: scroll;
+}
+/* 12 */
+.calculadora td button {
+    width: 60px;
+    padding: 0;
+    font-size: 20px;
+}
+/* 10 */
+.memoria{
+    background-color: gainsboro;
+    color: white;
+}
+/* 10 */
+.operacion{
+    background-color: gainsboro;
+    color: black;
+}
+/* 10 */
+.digitos{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+/* 10 */
+.punto{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+/* 10 */
+.memoria{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
+/* 10 */
+.primeraFila{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}

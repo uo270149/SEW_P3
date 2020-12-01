@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <!-- Cabecera del html -->
+    <meta charset="UTF-8" />
+    <title>CalculadoraCientifica</title>
+    <link rel="stylesheet" href="CalculadoraCientifica.css" />
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="author" content="Sofía Suárez Fernández UO270149"/>
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora científica</h1>
+
+    <table class="calculadora">
+        <tr>
+            <td colspan="5"><button id="resultado"></button></td>
+        </tr>
+        <tr>
+            <td><button class ="primeraFila" id="deg" onclick="calculadora.deg()">DEG</button></td>
+            <td><button class ="primeraFila" id="rad" onclick="calculadora.rad()">RAD</button></td>
+        </tr>
+
+        <tr>
+            <td><button class ="memoria" onclick="calculadora.mc()">MC</button></td>
+            <td><button class ="memoria" onclick="calculadora.mr()">MR</button></td>
+            <td><button class="memoria" onclick="calculadora.mMas()">M+</button></td>
+            <td><button class="memoria" onclick="calculadora.mMenos()">M-</button>
+            <td><button class="memoria" onclick="calculadora.ms()">MS</button></td>
+        </tr> 
+
+        <tr>
+            <td><button class ="operacion" onclick="calculadora.potenciaCuadrado()">x^2</button></td>
+            <td><button class ="operacion" onclick="calculadora.fraccion()">1/x</button></td>
+            <td><button class="operacion" onclick="calculadora.seno()">sin</button></td>
+            <td><button class="operacion" onclick="calculadora.coseno()">cos</button>
+            <td><button class="operacion" onclick="calculadora.tangente()">tan</button></td>
+        </tr> 
+
+        <tr>
+            <td><button class ="operacion" onclick="calculadora.raiz()">√</button></td>
+            <td><button class ="operacion" onclick="calculadora.potenciaDiez()">10^x</button></td>
+            <td><button class="operacion" onclick="calculadora.log10()">log</button></td>
+            <td><button class="operacion" onclick="calculadora.exp()">Exp</button>
+            <td><button class="operacion" onclick="calculadora.mod()">Mod</button></td>
+        </tr>
+
+        <tr>
+            <td><button class ="operacion" onclick="calculadora.flecha()">↑</button></td>
+            <td><button class ="operacion" onclick="calculadora.ce()">CE</button></td>
+            <td><button class="operacion" onclick="calculadora.c()">C</button></td>
+            <td><button class="operacion" onclick="calculadora.del()">DEL</button>
+            <td><button class="operacion" onclick="calculadora.division()">/</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="operacion" onclick="calculadora.digitos(Math.PI)">π</button></td>
+            <td><button class="digitos" onclick="calculadora.digitos(7)">7</button></td>
+            <td><button class="digitos" onclick="calculadora.digitos(8)">8</button></td>
+            <td><button class="digitos" onclick="calculadora.digitos(9)">9</button></td>
+            <td><button class="operacion" onclick="calculadora.multiplicacion()">×</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="operacion" onclick="calculadora.factorial()">n!</button></td>
+            <td><button class="digitos" id="cuatro" onclick="calculadora.digitos(4)">4</button></td>
+            <td><button class="digitos" id="cinco" onclick="calculadora.digitos(5)">5</button></td>
+            <td><button class="digitos" id="seis" onclick="calculadora.digitos(6)">6</button></td>
+            <td><button class="operacion" id="resta" onclick="calculadora.resta()">-</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="operacion" onclick="calculadora.masMenos()">±</button></td>
+            <td><button class="digitos" id="uno" onclick="calculadora.digitos(1)">1</button></td>
+            <td><button class="digitos" id="dos" onclick="calculadora.digitos(2)">2</button></td>
+            <td><button class="digitos" id="tres" onclick="calculadora.digitos(3)">3</button></td>
+            <td><button class="operacion" id="suma" onclick="calculadora.suma()">+</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="operacion" onclick="calculadora.parentesisIz()">(</button></td>
+            <td><button class="operacion" onclick="calculadora.parentesisDer()">)</button></td>
+            <td><button class="digitos" id="cero" onclick="calculadora.digitos(0)">0</button></td>
+            <td><button class="operacion" id="punto" onclick="calculadora.punto()">.</button></td>
+            <td><button class="operacion" id="igual" onclick="calculadora.igual()">=</button></td>
+        </tr>
+    </table>
+</body>
+
+</html>
