@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+h3{
+    text-align: center;
+    color: darkturquoise;
+}
+p{
+    color: gray;
+}
