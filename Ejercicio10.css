@@ -1,0 +1,41 @@
+/* 1 */
+body{
+    background-color: whitesmoke;
+    font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: black;
+}
+/* 1 */
+h1{
+    background-color:#FFD700; 
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;
+}
+/* 1 */
+a{
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* 11 */
+a:hover{
+    background-color: #111;
+    color: whitesmoke;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    margin: 5px;
+}
+div{
+    text-align: center;
+}
+.validator{
+    height:63px;
+    width:64px;
+}
