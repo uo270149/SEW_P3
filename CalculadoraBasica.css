@@ -1,55 +1,72 @@
-/* a=0 b=0 c=1 001*/
-h1{    
-    border-radius: 20px;    
-    text-transform: uppercase;
+/* 1 */
+body{
+    background-color: burlywood;
+}
+/* 1 */
+h1{
+    text-align: left;
+    color: black;
+}
+/* 10 */
+.calculadora{
+    border: 3px #424949 ridge;
+    width: 300px;
     text-align: center;
-    padding: 20px;
-    font-size: 2em;
-    background-color:darkslategray;
+    background-color: #424949;
+    border-radius: 4%;
+}
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    width: 11.5em;
+    height: 3em;
+    background-color: gainsboro;
+    overflow-x: scroll;
+}
+/* 12 */
+.calculadora td button {
+    width: 60px;
+    padding: 0;
+    font-size: 20px;
+    margin: 10px;
+}
+/* 10 */
+.memoria{
+    background-color: grey;
     color: white;
+    margin: 10px;
 }
-
-/* a=1 b=0 c=0 100*/
-#calculator {
-  width: 330px;
-  height: auto;
-  margin: auto;
-  padding: 2% 2% 2% 2%;
-  background-color: darkslategray;
-  color:white;
-  border-radius: 4px;
-  border-color: darkcyan;
+/* 10 */
+.operacion{
+    background-color: crimson;
+    color: black;
+    margin: 10px;
 }
-
-/* a=0 b=2 c=1 021*/
-.top input.screen {
-  height: 40px;
-  width: 212px;
-  padding: 0.5% 12%;
-  margin-bottom: 5px;
-  background-color: darkseagreen;
-  border-radius: 2px;  
-  font-size: 17px;
-  line-height: 40px;
-  color: black;
-  text-align: right;
-  letter-spacing: 1px;
+/* 10 */
+.digitos{
+    background-color: grey;
+    color: white;
+    margin: 10px;
 }
-
-
-/*a=0 b=1 c=1 011*/
-.buttons input {
-  position: relative;
-  cursor: pointer;
-  width: 65px;
-  height: 40px;
-  background: white;
-  border-radius: 33px;
-  margin: 0px 7px 11px 1px;
-  color: darkgray;
-  line-height: 36px;
-  text-align: center;
-  
+/* 10 */
+.punto{
+    background-color: grey;
+    color: white;
+    margin: 10px;
+}
+/* 10 */
+.borrar{
+    background-color: grey;
+    color: white;
+    margin: 10px;
+}
+/* 10 */
+.igual{
+    background-color: grey;
+    color: white;
+    margin: 10px;
 }
 
 
