@@ -1,0 +1,48 @@
+/* 1 */
+body{
+    background-color: cornflowerblue;
+}
+/* 1 */
+h1{
+    text-align: center;
+    color: black;
+}
+/* 1 */
+div{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding-top: 6.5px;
+    padding-bottom: 6.25px;
+    margin: auto;
+    background-color: gainsboro;
+    border-radius: 4px;
+}
+/* 11 */
+input[type=text]{
+    width: 75%;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+    background-color: whitesmoke;
+}
+/* 11 */
+input[type=button]{
+    background-color: whitesmoke;
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 2.5px 2.5px;
+    min-width: 12%;
+    color: black;
+}
+/* 21 */
+input[type=button]:hover{
+    background-color: #c4c4c4;
+}

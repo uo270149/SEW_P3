@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Cabecera del html -->
+    <meta charset="UTF-8" />
+    <title>CalculadoraRPN</title>
+    <link rel="stylesheet" href="CalculadoraRPN.css" />
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="Sofía Suárez Fernández UO270149" />
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora RPN</h1>
+
+    <div class="calculadora">
+        <div id="calculator">
+            <input title="stack" id="stack" name="stack" type="text" disabled>
+            <input title="display" id="display" name="display" type="text" disabled>
+            <div>
+                <input type="button" id="potencia" value="y^x" onClick="calculadora.potencia()">
+                <input type="button" id="sin" value="sin" onClick="calculadora.sin()">
+                <input type="button" id="cos" value="cos" onClick="calculadora.cos()">
+                <input type="button" id="tan" value="tan" onClick="calculadora.tan()">
+                <input type="button" id="ln" value="ln" onClick="calculadora.ln()">
+                <input type="button" id="log" value="log" onClick="calculadora.log10()">
+            </div>
+            <div>
+                <input type="button" id="potenciaCuadrado" value="x^2" onClick="calculadora.potenciaCuadrado()">
+                <input type="button" id="√" value="√" onClick="calculadora.raiz()">
+                <input type="button" id="parentesisIz" value="(" onClick="calculadora.parentesisIz()">
+                <input type="button" id="parentesisDer" value=")" onClick="calculadora.parentesisDer()">
+                <input type="button" id="coma" value="," onClick="calculadora.coma()">
+                <input type="button" id="enter" value="Enter" onClick="calculadora.enter()">
+            </div>
+            <div>
+                <input type="button" id="π" value="π" onClick="calculadora.digitos(Math.PI)">
+                <input type="button" id="7" value="7" onClick="calculadora.digitos(7)">
+                <input type="button" id="8" value="8" onClick="calculadora.digitos(8)">
+                <input type="button" id="9" value="9" onClick="calculadora.digitos(9)">
+                <input type="button" id="division" value="/" onClick="calculadora.division()">
+                <input type="button" id="factorial" value="n!" onClick="calculadora.factorial()">
+            </div>
+            <div>
+                <input type="button" id="CE" value="CE" onClick="calculadora.ce()">
+                <input type="button" id="4" value="4" onClick="calculadora.digitos(4)">
+                <input type="button" id="5" value="5" onClick="calculadora.digitos(5)">
+                <input type="button" id="6" value="6" onClick="calculadora.digitos(6)">
+                <input type="button" id="multiplicacion" value="x" onClick="calculadora.multiplicacion()">
+                <input type="button" id="fraccion" value="1/x" onClick="calculadora.fraccion()">
+            </div>
+
+            <div>
+                <input type="button" id="c" value="C" onClick="calculadora.c()">
+                <input type="button" id="1" value="1" onClick="calculadora.digitos(1)">
+                <input type="button" id="2" value="2" onClick="calculadora.digitos(2)">
+                <input type="button" id="3" value="3" onClick="calculadora.digitos(3)">
+                <input type="button" id="resta" value="-" onClick="calculadora.resta()">
+                <input type="button" id="euler" value="e^x" onClick="calculadora.euler()">
+            </div>
+            <div>
+                <input type="button" id="del" value="DEL" onClick="calculadora.del()">
+                <input type="button" id="0" value="0" onClick="calculadora.digitos(0)">
+                <input type="button" id="." value="." onClick="calculadora.punto()">
+                <input type="button" id="potenciaDiez" value="10^x" onClick="calculadora.potenciaDiez()">
+                <input type="button" id="+" value="+" onClick="calculadora.suma()">
+                <input type="button" id="aprox" value="int" onClick="calculadora.aprox()">
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Autor: Sofía Suárez Fernández. Universidad de Oviedo. Software y Estándares para la Web</p>
+        <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+            <img src="valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" /></a>
+    </footer>
+</body>
+
+</html>
