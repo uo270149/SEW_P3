@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Datos meteorológicos</title>
+    <link rel="stylesheet" href="Ejercicio9.css" />
+    <link rel="icon" type="image/png" href="multimedia/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sofía Suárez Fernández UO270149" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio9.js"></script>
+</head>
+
+<body onload="cadiz.verXML(); llanes.verXML(); ronda.verXML(); osuna.verXML(); celorio.verXML();">
+    <section>
+        <h1>Datos meteorológicos</h1>
+        <div id="meteo"></div>
+    </section>
+
+    <br>
+
+    <footer>
+        <!-- Foother del html (enlaces a los validadores) -->
+        <p>Autor: Sofía Suárez Fernández. Universidad de Oviedo. Software y Estándares para la Web.</p>
+        <a href="https://validator.w3.org">
+            <img class="validator" src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                alt="¡HTML5 válido!" /></a>
+
+        <a href="http://jigsaw.w3.org/css-validator/">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+        </a>
+    </footer>
+</body>
+
+</html>
