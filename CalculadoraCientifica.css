@@ -30,38 +30,45 @@ h1{
     width: 60px;
     padding: 0;
     font-size: 20px;
+    margin:10px;
 }
 /* 10 */
 .memoria{
     background-color: gainsboro;
     color: white;
+    margin:10px;
 }
 /* 10 */
 .operacion{
     background-color: gainsboro;
     color: black;
+    margin:10px;
 }
 /* 10 */
 .digitos{
     background-color: whitesmoke;
     color: black;
     font-weight: bold;
+    margin:10px;
 }
 /* 10 */
 .punto{
     background-color: whitesmoke;
     color: black;
     font-weight: bold;
+    margin:10px;
 }
 /* 10 */
 .memoria{
     background-color: gray;
     color: black;
     font-weight: bold;
+    margin:10px;
 }
 /* 10 */
 .primeraFila{
     background-color: gray;
     color: black;
     font-weight: bold;
+    margin:10px;
 }
