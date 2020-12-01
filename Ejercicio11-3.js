@@ -58,9 +58,10 @@ class GeoLocalizacion {
         var size = "&size=800x600";
         var marker = "&markers=color:red%7Clabel:S%7C" + this.latitud + "," + this.longitud;
         var sensor = "&sensor=false";
+        var alt = "alt=\"Mapa\"";
 
         this.imgMap = url + center + zoom + size + marker + sensor + apikey;
-        ubicacion.innerHTML = "<img src='" + this.imgMap + "'/>";
+        ubicacion.innerHTML = "<img src='" + this.imgMap + "' " + alt + "/>";
     }
 }
 var geo = new GeoLocalizacion();
