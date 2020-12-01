@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+h3{
+    text-align: center;
+    color: darkturquoise;
+}
+p{
+    color: gray;
+}
+table{
+    border-collapse: collapse;
+    width:95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+th{
+    height: 50px;
+    text-align: left;
+    vertical-align: center;
+    padding:15px;
+    background-color:tan;
+    color:#373737;
+}
+td{
+    text-align: left;
+    vertical-align: center;
+    padding:15px;
+}
+tr:nth-child(even) {
+    background-color:#f2f2f2;
+}

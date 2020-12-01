@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="author" content="Sofía Suárez Fernández UO270149"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 7</title>
+
+        <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Ejercicio7.js"></script>
+    </head>
+
+    <body>
+        <h1>Ejercicio 7</h1>
+
+        <h2>Encabezado h2</h2>
+
+        <h3>Encabezado h3</h3>
+
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p id="append">Párrafo 3</p>
+
+        <input type="button" value="Ocultar párrafos" onclick="ejercicio7.ocultar()"/>
+        <input type="button" value="Mostrar párrafos" onclick="ejercicio7.mostrar()"/>
+        <input type="button" value="Modificar color Encabezado h2" onclick="ejercicio7.modificar()"/>
+        <input type="button" value="Añadir elementos con append()" onclick="ejercicio7.añadir()"/>
+        <input type="button" value="Eliminar elementos h3" onclick="ejercicio7.eliminar()"/>
+        <input type="button" value="Recorrer elementos" onclick="ejercicio7.recorrer()"/>
+        <input type="button" value="Sumar filas y columnas de la tabla" onclick="ejercicio7.sumarFilasColumnas()"/>
+
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                    <th>Columna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   <td id="valorDato">1</td> 
+                   <td id="valorDato">2</td>
+                   <td id="valorDato">3</td>
+                </tr>
+                <tr>
+                    <td id="valorDato">4</td> 
+                    <td id="valorDato">5</td>
+                    <td id="valorDato">6</td>
+                </tr>
+                <tr>
+                    <td id="valorDato">7</td> 
+                    <td id="valorDato">8</td>
+                    <td id="valorDato">9</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <p>Autor: Sofía Suárez Fernández. Universidad de Oviedo. Software y Estándares para la Web.</p>
+            <!-- Foother del html (enlaces a los validadores) -->
+            <a href="https://validator.w3.org">
+                <img class="validator" src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                    alt="¡HTML5 válido!" /></a>
+    
+                <a href="http://jigsaw.w3.org/css-validator/">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="¡CSS Válido!" />
+                </a>
+        </footer>
+    </body>
+</html>
