@@ -7,6 +7,9 @@ h1{
     text-align: left;
     color: black;
 }
+th{
+    color:#424949;
+}
 /* 10 */
 .calculadora{
     border: 3px #424949 ridge;
