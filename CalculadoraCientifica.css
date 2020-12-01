@@ -3,6 +3,10 @@ body{
     background-color: wheat;
 }
 /* 1 */
+p{
+    color:black;
+}
+/* 1 */
 h1{
     text-align: left;
     color: black;
