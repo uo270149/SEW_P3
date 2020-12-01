@@ -30,36 +30,43 @@ h1{
     width: 60px;
     padding: 0;
     font-size: 20px;
+    margin: 10px;
 }
 /* 10 */
 .memoria{
     background-color: grey;
     color: white;
+    margin: 10px;
 }
 /* 10 */
 .operacion{
     background-color: crimson;
     color: black;
+    margin: 10px;
 }
 /* 10 */
 .digitos{
     background-color: grey;
     color: white;
+    margin: 10px;
 }
 /* 10 */
 .punto{
     background-color: grey;
     color: white;
+    margin: 10px;
 }
 /* 10 */
 .borrar{
     background-color: grey;
     color: white;
+    margin: 10px;
 }
 /* 10 */
 .igual{
     background-color: grey;
     color: white;
+    margin: 10px;
 }
 
 
