@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Consumo de Agua</title>
+        <link rel="stylesheet" href="CalculadoraAgua.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sofía Suárez Fernández UO270149"/>
+        <script src="CalculadoraAgua.js"></script>
+    </head>
+
+    <body>
+        <h1>Calculadora de consumo de agua</h1>
+
+        <div class="contenedor">
+            <!-- ud familiar -->
+            <h4>Unidad Familiar</h4>
+            <label for="udFamiliar">Personas en la ud. familiar </label>
+            <input type="text" title="udFamiliar" placeholder="1" id="udFamiliar" name="udFamiliar" min="1" required/>
+            <br>
+
+            <!-- Higiene -->
+            <h4>Higiene</h4>
+            <label for="ducha">Ducha (nº veces/día) </label>
+            <input type="text" title="ducha" placeholder="0" id="ducha" name="ducha" min="0" required/>
+            <br>
+
+            <label for="baño">Baño (nº veces/día) </label>
+            <input type="text" title="baño" placeholder="0" id="baño" name="baño" min="0" required/>
+            <br>
+
+            <label for="dientes">Lavar dientes (nº veces/día) </label>
+            <input type="text" title="dientes" placeholder="0" id="dientes" name="dientes" min="0" required/>
+            <br>
+
+            <label for="cara">Lavar cara (nº veces/día) </label>
+            <input type="text" title="cara" placeholder="0" id="cara" name="cara" min="0" required/>
+            <br>
+
+            <label for="cisterna">Descargar cisterna (nº veces/día) </label>
+            <input type="text" title="cisterna" placeholder="0" id="cisterna" name="cisterna" min="0" required/>
+            <br>
+
+            <!-- cocina -->
+            <h4>Cocina</h4>
+            <label for="grifo">Beber del grifo (litros/día) </label>
+            <input type="text" title="grifo" placeholder="0" id="grifo" name="grifo" min="0" required/>
+            <br>
+
+            <label for="cocinar">Agua para cocinar (litros/día) </label>
+            <input type="text" title="cocinar" placeholder="0" id="cocinar" name="cocinar" min="0" required/>
+            <br>
+
+            <!-- Limpieza -->
+            <h4>Limpieza</h4>
+            <label for="lavadora">Lavadora (nº veces/día) </label>
+            <input type="text" title="lavadora" placeholder="0" id="lavadora" name="lavadora" min="0" required/>
+            <br>
+
+            <label for="lavavajillas">Lavavajillas (nº veces/día) </label>
+            <input type="text" title="lavavajillas" placeholder="0" id="lavavajillas" name="lavavajillas" min="0" required/>
+            <br>
+
+            <label for="platos">Fregar platos (nº veces/día) </label>
+            <input type="text" title="platos" placeholder="0" id="platos" name="platos" min="0" required/>
+            <br>
+
+            <label for="suelo">Fregar suelo (nº veces/día) </label>
+            <input type="text" title="suelo" placeholder="0" id="suelo" name="suelo" min="0" required/>
+            <br>
+            <br>
+
+            <button type="button" onclick="calculadora.consumoAgua();">Calcular consumo</button>
+        </div>
+
+        <div id="contenedorResultado" style="display: none;">
+            El consumo de agua de la unidad familiar de <span id="personas"></span> personas es de: <span id="resultado"></span> litros al día.
+        </div>
+    </body>
+</html>
