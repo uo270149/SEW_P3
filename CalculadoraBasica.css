@@ -1,0 +1,66 @@
+/* 1 */
+body{
+    background-color: burlywood;
+}
+/* 1 */
+h1{
+    text-align: left;
+    color: black;
+}
+/* 10 */
+.calculadora{
+    border: 3px #424949 ridge;
+    width: 300px;
+    text-align: center;
+    background-color: #424949;
+    border-radius: 4%;
+}
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    width: 11.5em;
+    height: 3em;
+    background-color: gainsboro;
+    overflow-x: scroll;
+}
+/* 12 */
+.calculadora td button {
+    width: 60px;
+    padding: 0;
+    font-size: 20px;
+}
+/* 10 */
+.memoria{
+    background-color: grey;
+    color: white;
+}
+/* 10 */
+.operacion{
+    background-color: crimson;
+    color: black;
+}
+/* 10 */
+.digitos{
+    background-color: lightgray;
+    color: white;
+}
+/* 10 */
+.punto{
+    background-color: lightgray;
+    color: white;
+}
+/* 10 */
+.borrar{
+    background-color: lightgray;
+    color: white;
+}
+/* 10 */
+.igual{
+    background-color: lightgray;
+    color: white;
+}
+
+
+
