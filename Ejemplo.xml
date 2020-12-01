@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rutasACaballo>
+    <!-- RUTA 1 -->
+    <rutaACaballo nombre="Barro-Celorio-Poo">
+        <tipo>Senda costera</tipo>
+        <dificultad>Fácil</dificultad>
+        <horaInicio>11:00:00</horaInicio>
+        <duracion>2 horas</duracion>
+        <agencia>Aventuras en Asturias</agencia>
+        <descripcion>Ruta por la senda costera desde Barro, pasando por las playas de San Martín, Portillo y Poo.</descripcion>
+        <personasAdecuadas>A partir de 7 años.</personasAdecuadas>
+        <lugarInicio>Barro</lugarInicio>
+        <direccionInicio>Playa de Barro</direccionInicio>
+        <coordenadas>
+            <latitud>43.44°N</latitud>
+            <longitud>4.82°W</longitud>
+            <altitud>1 metros</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia valor="https://earth.google.com/web/search/playa+de+barro/@43.4352044,-4.8245876,9.44099616a,742.02336779d,35y,0h,45t,0r/data=CngaThJICiQweGQ0OWU5NmVjYmI3MzE3YjoweGI4NGM2YzZkM2U3OTUxZjQZo4kcx7S3RUAhn78asWBME8AqDnBsYXlhIGRlIGJhcnJvGAEgASImCiQJmq3tflujNEARma3tflujNMAZxSa77OUVQEAhlxgsYt-LUcAoAg">Google Earth</referencia>
+            <referencia valor="https://www.aventurasenasturias.com/aventuras_en_asturias_actividades.php?aventurasID=226">Aventuras en Asturias</referencia>
+            <referencia valor="https://www.turismoasturias.es/descubre/costa/playas/playa-arenal-de-san-martin">Turismo Asturias</referencia>
+        </referencias>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <!-- hito 1 -->
+            <hito nombre="Playa de San Martín">
+                <descripcionHito>Es una ensenada ventosa de arena blanca y fuerte oleaje, elegida por muchos para la práctica del surf. Destacan los restos de la ermita románica de San Martín; la playa está situada en pleno Camino de Santiago costero. En pleamar, determinadas zonas pierden por completo su espacio arenoso.</descripcionHito>
+                <coordenadas>
+                    <latitud>43.43°N</latitud>
+                    <longitud>4.80°W</longitud>
+                    <altitud>1 metro</altitud>
+                </coordenadas>
+                <distancia unidad="metros">0</distancia> <!--Es el primer hito-->
+                <fotos>
+                    <foto valor="https://www.turismoasturias.es/documents/11022/12693/PlayaArenalSanMartin1.jpg/666cea90-c771-4f79-918b-7e7e0c8c723a?t=1388686305856">Foto 1</foto>
+                    <foto valor="https://static.elcomercio.es/comun/movil2016/imagenes_playas/0002492.jpg">Foto 2</foto>
+                    <foto valor="https://media-cdn.tripadvisor.com/media/photo-s/10/3d/18/94/playa-de-san-martin.jpg">Foto 3</foto>
+                </fotos>
+                <videos>
+                    <video valor="https://youtu.be/3xdhrYaqMJ4">Vídeo 1</video>
+                </videos>
+            </hito>
+
+            <!-- hito 2 -->
+            <hito nombre="Playa de Portillo">
+                <descripcionHito> Se trata de una pequeña playa de forma de concha, a la que se accede a través de una senda cicloturista peatonal que se construyó uniendo las localidades de Celorio y Poo. Es el límite oriental de la parroquia de Celorio. Sus dimensiones varían enormemente por las mareas. Y hay que destacar la aparición durante la bajamar de un charco de dimensiones considerables conocido con el nombre de “la Poza”, que es la única zona de una cierta peligrosidad de la playa, pese a ser sitio de juego para los niños.</descripcionHito>
+                <coordenadas>
+                    <latitud>43.43°N</latitud>
+                    <longitud>4.79°W</longitud>
+                    <altitud>1 metro</altitud>
+                </coordenadas>
+                <distancia unidad="metros">900</distancia>
+                <fotos>
+                    <foto valor="https://www.google.es/maps/place/Playa+el+Portillu/@43.4318017,-4.7926249,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOBvUwIpUZSzIiRlLYyxHzK2GpJoKD__v1tOD3W!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOBvUwIpUZSzIiRlLYyxHzK2GpJoKD__v1tOD3W%3Dw203-h152-k-no!7i4032!8i3024!4m10!1m2!2m1!1splaya+de+portillo!3m6!1s0xd49ebc88997269d:0xd30012c56a6c97d2!8m2!3d43.4318016!4d-4.7926247!14m1!1BCgIgAQ">Foto 1</foto>
+                    <foto valor="https://www.google.es/maps/place/Playa+el+Portillu/@43.4318017,-4.7926249,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOQRMD4Hd-On2Fw5VrpwlrR3Fo3ASRtRi3QiLTS!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOQRMD4Hd-On2Fw5VrpwlrR3Fo3ASRtRi3QiLTS%3Dw397-h298-k-no!7i4032!8i3024!4m10!1m2!2m1!1splaya+de+portillo!3m6!1s0xd49ebc88997269d:0xd30012c56a6c97d2!8m2!3d43.4318016!4d-4.7926247!14m1!1BCgIgAQ">Foto 2</foto>
+                </fotos>
+                <videos>
+                    <video valor="https://www.google.es/maps/place/Playa+el+Portillu/@43.4318017,-4.7926249,5455a,13.1y/data=!3m8!1e5!3m6!1sAF1QipPht4vXdBx94eQzAZCdsc2rY56K-Lf_IT1hFgdr!2e10!3e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPht4vXdBx94eQzAZCdsc2rY56K-Lf_IT1hFgdr%3Dw203-h111-k-no!7i640!8i352!4m10!1m2!2m1!1splaya+de+portillo!3m6!1s0xd49ebc88997269d:0xd30012c56a6c97d2!8m2!3d43.4318016!4d-4.7926247!14m1!1BCgIgAQ">Vídeo 1</video>
+                </videos>
+            </hito>
+
+            <!-- hito 3 -->
+            <hito nombre="Playa de Poo">
+                <descripcionHito>Esta playa con forma de embudo, desde la que es difícil atisbar el mar al fondo de los acantilados, reposa en la desembocadura de un pequeño arroyo llamado Río Vallina. Cuando la marea sube, el mar entra por la canal que se ha formado con el paso de los siglos y queda remansada como si se tratase de una piscina de poca profundidad. Todas estas características hacen que sea un arenal familiar, ya que el baño es muy seguro.</descripcionHito>
+                <coordenadas>
+                    <latitud>43.43°N</latitud>
+                    <longitud>4.78°W</longitud>
+                    <altitud>1 metro</altitud>
+                </coordenadas>
+                <distancia unidad="metros">2100</distancia>
+                <fotos>
+                    <foto valor="https://www.turismoasturias.es/documents/11022/13983/poo.jpg/71d41f6e-52eb-48b8-9a1e-1dfbc8bae55d?t=1565615417052">Foto 1</foto>
+                    <foto valor="https://www.turismoasturias.es/documents/11022/13983/Playa_de_Poo_Llanes.jpg/8713cd8d-bb69-49d2-a289-ee21af1abfda?t=1565686889892">Foto 2</foto>
+                    <foto valor="https://www.turismoasturias.es/documents/11022/13983/PlayadePoo_3.jpg/ea86b9cc-43c8-42f0-b19e-3e187f0f056f?t=1406275683811">Foto 3</foto>
+                </fotos>
+                <videos>
+                    <video valor="https://youtu.be/0eOk3d0DVMU">Vídeo 1</video>
+                </videos>
+            </hito>
+        </hitos>
+    </rutaACaballo>
+
+    <!-- RUTA 2 -->
+    <rutaACaballo nombre="Osuna-Ronda">
+        <tipo>Paisajística</tipo>
+        <dificultad>Avanzado</dificultad>
+        <horaInicio>09:00:00</horaInicio>
+        <duracion>5 días</duracion>
+        <agencia>Agetrea</agencia>
+        <descripcion>Una ruta mágica en la que descubrir y disfrutar de la Vereda Real de Osuna a Ronda, recorriendo unos parajes únicos rodeados de impresionantes olivos centenarios, encinas, alcornoques, chaparros y toda la vegetación propia del monte bajo mediterráneo, con la exclusividad de cabalgar junto al rio Corbones hasta su nacimiento, en la Aldea de La Atalaya ó almorzar en el Convento de Caño Santo, dentro del termino municipal gaditano de Alcala del Valle,  fundado por la Casa Ducal de Osuna.</descripcion>
+        <personasAdecuadas>No apto para niños.</personasAdecuadas>
+        <lugarInicio>Osuna</lugarInicio>
+        <direccionInicio>Calle Alfonso XII, Osuna</direccionInicio>
+        <coordenadas>
+            <latitud>37.17°N</latitud>
+            <longitud>5.11°W</longitud>
+            <altitud>510 metros</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia valor="https://earth.google.com/web/search/Alfonso+XII+Nº+60+Edif.+Sanor+41640+/@37.16757778,-5.10629522,510.42837213a,54.2113677d,35y,-125.79038474h,44.995122t,0r/data=Co4BGmQSXgokMHhkMGQ1NTliOWQ3YjJkMTE6MHg1Y2Q5NGYzNzMyYzdjOGU0Gd095T1zlUJAId9AN-rXbBTAKiRBbGZvbnNvIFhJSSBOwrogNjAgRWRpZi4gU2Fub3IgNDE2NDAYASABIiYKJAlyvN93idBDQBFzvN93idBDwBm5Tng3XSM8QCFnC08XSdhVwA">Google Earth</referencia>
+            <referencia valor="https://www.andaluciaacaballo.org/de-osuna-a-ronda-a-caballo/">Agetrea</referencia>
+            <referencia valor="https://www.dipucadiz.es/provincia/cadizQR/AlcalaValle-ConventoCanosSantos">Diputación Provincial de Cádiz</referencia>
+        </referencias>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <!-- hito 1 -->
+            <hito nombre="El Saucejo">
+                <descripcionHito>El Saucejo es un municipio español de la provincia de Sevilla, Andalucía.</descripcionHito>
+                <coordenadas>
+                    <latitud>36.47°N</latitud>
+                    <longitud>5.06°W</longitud>
+                    <altitud>533 metros</altitud>
+                </coordenadas>
+                <distancia unidad="metros">0</distancia> <!--Es el primer hito-->
+                <fotos>
+                    <foto valor="https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/imagen_evento/public/image/2020/05/descarga_25.jpg?itok=BBaCvx2C">Foto 1</foto>
+                </fotos>
+            </hito>
+
+            <!-- hito 2 -->
+            <hito nombre="Convento de Caños Santos">
+                <descripcionHito>Remonta sus orígenes al siglo XVI cuando el Conde de Ureña y Morón facilita tierras para la construcción de una ermita a Nuestra Señora de Caños Santos. Al aumentar la devoción de la feligresía se decidió labrar el Convento y Casa en 1542, aunque en su arquitectura se mezclan con la fábrica original importantes intervenciones de los siglos XVII y XVIII.</descripcionHito>
+                <coordenadas>
+                    <latitud>36.56°N</latitud>
+                    <longitud>5.09°W</longitud>
+                    <altitud>780 metros</altitud>
+                </coordenadas>
+                <distancia unidad="metros">27500</distancia>
+                <fotos>
+                    <foto valor="https://www.dipucadiz.es/export/sites/default/provincia/cadizQR/.galerias/AlcalaValle-ConventoCanosSantos/ConventoCanosSantos1.jpg">Foto 1</foto>
+                    <foto valor="https://www.dipucadiz.es/export/sites/default/provincia/cadizQR/.galerias/AlcalaValle-ConventoCanosSantos/ConventoCanosSantos3.jpg">Foto 2</foto>
+                </fotos>
+            </hito>
+
+            <!-- hito 3 -->
+            <hito nombre="Plaza de toros de Ronda">
+                <descripcionHito>De estilo neoclásico, es una de las más antiguas y bellas plazas de toros. El edificio, de singular belleza, está atribuido a Martín de Aldehuela. Es el tercer monumento más visitado de la Comunidad Autónoma Andaluza. La portada de acceso es de gran interés arquitectónico, con un balcón central forjado en finísimos hierros con alusiones taurinas, soportado por columnas toscanas, con el escudo real en el centro. Su ruedo, con 66 mts. de diámetro, es el más ancho del mundo.</descripcionHito>
+                <coordenadas>
+                    <latitud>36.44°N</latitud>
+                    <longitud>5.09°W</longitud>
+                    <altitud>730 metros</altitud>
+                </coordenadas>
+                <distancia unidad="metros">26600</distancia>
+                <fotos>
+                    <foto valor="https://www.saba.es/documents/31936/485960/pi090-1600x900.jpg/02052be0-f231-2804-2167-1d1b1bac6bf6?version=1.0&amp;t=1528897259761&amp;imagePreview=1">Foto 1</foto>
+                    <foto valor="https://toursgratis.com/images/data/Apr-2019/5cc315f57ff65fe73.jpg">Foto 2</foto>
+                </fotos>
+                <videos>
+                    <video valor="https://youtu.be/gonnveUTrRI">Vídeo 1</video>
+                </videos>
+            </hito>
+        </hitos>
+    </rutaACaballo>
+
+    <!-- RUTA 3 -->
+    <rutaACaballo nombre="Salinas Romanas-Molino de agua-Ermita de las montañas">
+        <tipo>Paisajística</tipo>
+        <dificultad>Medio</dificultad>
+        <horaInicio>10:00:00</horaInicio>
+        <duracion>2 días</duracion>
+        <agencia>Agetrea</agencia>
+        <descripcion>Descubre a caballo la naturaleza variable de los Parques Naturales Sierra de Grazalema y Los Alcornocales. Esta ruta pasa por los límites de ambos parques en solo dos días, y además os muestra unas peculiaridades como salinas romanas de interior, un museo molino de agua, y el santuario de Nuestra Señora de las Montañas en medio del campo.</descripcion>
+        <personasAdecuadas>Válido para niños.</personasAdecuadas>
+        <lugarInicio>Cádiz</lugarInicio>
+        <direccionInicio>Finca la Colada Camino de Arcos, km3 - Prado del Rey</direccionInicio>
+        <coordenadas>
+            <latitud>36.47°N</latitud>
+            <longitud>5.33°W</longitud>
+            <altitud>449 metros</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia valor="https://earth.google.com/web/search/11660+-+Prado+del+Rey+(CÁDIZ)/@36.78731204,-5.55697178,435.12147612a,1813.31524668d,35y,-121.79302436h,44.99999329t,0r/data=CocBGl0SVwokMHhkMGQxMjgzZmI3ZjJiZmY6MHhmNDI2MDM3YWJmMGNkODc1GWdpAqDlZEJAIQAerFotOxbAKh0xMTY2MCAtIFByYWRvIGRlbCBSZXkgKEPDgURJWhgCIAEiJgokCdxB5jBWYUJAEf2BnyiSX0JAGc5vJFAINRfAIR8YD0nXSRfA">Google Earth</referencia>
+            <referencia valor="https://www.andaluciaacaballo.org/salinas-romanas-de-iptuci-y-parque-natural-de-los-alcornocales/">Agetrea</referencia>
+            <referencia valor="https://www.prehistoriadelsur.com/2013/12/salinas-romanas-de-iptuci.html">Prehistoria del sur</referencia>
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <!-- hito 1 -->
+            <hito nombre="Salinas romanas de Iptuci">
+                <descripcionHito>Salinas cuya explotación data de la época fenicia, alcanzando su máximo esplendor en la época romana.</descripcionHito>
+                <coordenadas>
+                    <latitud>36.75°N</latitud>
+                    <longitud>5.55°W</longitud>
+                    <altitud>239 metros</altitud>
+                </coordenadas>
+                <distancia unidad="metros">0</distancia> <!--Es el primer hito-->
+                <fotos>
+                    <foto valor="https://www.euskadiz.com/wp-content/uploads/02-salinas-romanas-iptuci-euskadiz.jpg">Foto 1</foto>
+                    <foto valor="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/89/36/f7/salinas-de-iptuci.jpg">Foto 2</foto>
+                </fotos>
+                <videos>
+                    <video valor="https://youtu.be/Eiv_WbxczuQ">Vídeo 1</video>
+                </videos>
+            </hito>
+
+            <!-- hito 2 -->
+            <hito nombre="Museo Molino de Abajo">
+                <descripcionHito>Uno de los últimos molinos hidráulicos de Esàña, todavía en funcionamiento. La documentación existente data del siglo XVIII.</descripcionHito>
+                <coordenadas>
+                    <latitud>36.76°N</latitud>
+                    <longitud>5.51°W</longitud>
+                    <altitud>254 metros</altitud>
+                </coordenadas>
+                <distancia unidad="metros">4300</distancia>
+                <fotos>
+                    <foto valor="https://media-cdn.tripadvisor.com/media/photo-s/16/fe/52/c4/20190330-122044-largejpg.jpg">Foto 1</foto>
+                    <foto valor="https://clientes.turismorural.com/Areacliente/Casas/muetmoab/museo-etnologico-el-molino-de-abajo-5.jpg">Foto 2</foto>
+                </fotos>
+                <videos>
+                    <video valor="https://youtu.be/_zfyWTS6AGI">Vídeo 1</video>
+                </videos>
+            </hito>
+
+            <!-- hito 3 -->
+            <hito nombre="Ermita de las Montañas">
+                <descripcionHito>Formada por dos edificios situados en línea, uno más pequeño y más antiguo y otro muy reciente y bastante más espacioso. La imagen de la Virgen está en medio de los dos y, dependiendo de cual se vaya a utilizar se la puede dar la vuelta sobre sí misma para que presida la ceremonia que se esté celebrando.</descripcionHito>
+                <coordenadas>
+                    <latitud>36.80°N</latitud>
+                    <longitud>5.57°W</longitud>
+                    <altitud>333 metros</altitud>
+                </coordenadas>
+                <distancia unidad="metros">11100</distancia>
+                <fotos>
+                    <foto valor="https://imgs-akamai.mnstatic.com/86/9a/869ac46a0880d7cf0f4a993a97df77ff.jpg">Foto 1</foto>
+                    <foto valor="https://www.dipucadiz.es/export/sites/default/provincia/cadizQR/.galerias/Villamartin-SantuarioMontanas/SantuarioMontanas2.jpg">Foto 2</foto>
+                </fotos>
+                <videos>
+                    <video valor="https://youtu.be/nxGqOoJ95w0">Vídeo 1</video>
+                </videos>
+            </hito>
+        </hitos>
+    </rutaACaballo>
+</rutasACaballo>

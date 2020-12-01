@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Read File</title>
+    <link rel="stylesheet" href="Ejercicio12.css" />
+    <link rel="icon" type="image/png" href="multimedia/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sofía Suárez Fernández UO270149" />
+
+    <script src="Ejercicio12.js"></script>
+</head>
+
+<body>
+    <h1>Leer archivos de la máquina del cliente</h1>
+
+    <script>
+        if (window.File && window.FileReader && window.FileList && window.Blob) {
+            //El navegador soporta el API File
+            document.write("<p>Este navegador soporta el API File.</p>");
+        }
+        else {
+            document.write("<p>Este navegador NO soporta el API File. Este programa puede no funcionar correctamente.</p>");
+        }
+    </script>
+
+    <div class="custom-input-file col-md-6 col-sm-6 col-xs-6">
+        <input type="file" id="archivoTexto" onchange="file.leerArchivoTexto(this.files);"> Subir archivo...
+    </div>
+
+    <p id="nombreArchivo"></p>
+    <p id="tamañoArchivo"></p>
+    <p id="tipoArchivo"></p>
+    <p id="ultimaModificacion"></p>
+    <p id="contenidoArchivo"></p>
+    <pre id="areaTexto"></pre>
+    <p id="errorLectura"></p>
+
+    <footer>
+        <!-- Footer del html (enlaces a los validadores) -->
+        <p>Autor: Sofía Suárez Fernández, estudiante de la Universidad de Oviedo, Asturias, España. Asignatura: Software
+            y Estándares para la Web. Curso: 2020/21</p>
+        <a href="https://validator.w3.org">
+            <img class="validator" src="images/HTML5.png" alt=" HTML5 Válido!" /></a>
+
+        <a href="http://jigsaw.w3.org/css-validator/">
+            <img class="validator" src="images/CSS3.png" alt="CSS Válido!" /></a>
+    </footer>
+</body>
+
+</html>
