@@ -37,37 +37,37 @@ th{
 }
 /* 10 */
 .memoria{
-    background-color: grey;
+    background-color: black;
     color: white;
     margin: 10px;
 }
 /* 10 */
 .operacion{
-    background-color: crimson;
-    color: black;
+    background-color: black;
+    color: white;
     margin: 10px;
 }
 /* 10 */
 .digitos{
-    background-color: grey;
+    background-color: black;
     color: white;
     margin: 10px;
 }
 /* 10 */
 .punto{
-    background-color: grey;
+    background-color: black;
     color: white;
     margin: 10px;
 }
 /* 10 */
 .borrar{
-    background-color: grey;
+    background-color: black;
     color: white;
     margin: 10px;
 }
 /* 10 */
 .igual{
-    background-color: grey;
+    background-color: black;
     color: white;
     margin: 10px;
 }
