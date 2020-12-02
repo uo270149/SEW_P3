@@ -26,7 +26,8 @@
     </script>
 
     <div class="custom-input-file col-md-6 col-sm-6 col-xs-6">
-        <input type="file" id="archivoTexto" onchange="file.leerArchivoTexto(this.files);"> Subir archivo...
+        <label for="archivoTexto">Subir archivo: </label>
+        <input type="file" name="archivoTexto" id="archivoTexto" onchange="file.leerArchivoTexto(this.files);" />
     </div>
 
     <p id="nombreArchivo"></p>
