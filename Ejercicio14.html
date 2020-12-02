@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <meta name="author" content="Sofía Suárez Fernández UO270149" />
+
+    <title>HTML5 APIs</title>
+
+    <link rel="stylesheet" href="Ejercicio14.css" />
+    <link rel="icon" type="image/png" href="multimedia/icon.png" />
+
+    <script src="Ejercicio14.js"></script>
+    <script src="Geo14.js"></script>
+</head>
+
+<body>
+    <h1>HTML5 API</h1>
+
+    <div id="options">
+        <button type="button" id="fullScreen" onclick="full.fullScreen();">Ver en pantalla completa</button>
+        <br>
+        <input type="button" id="staticMap" value="Obtener mapa estático" onclick="geo.mapaEstatico('ubicacion');">
+    </div>
+
+    <br>
+
+    <div id="canvasMapa">
+        <canvas id="canvas" width="1000" height="50"></canvas>
+    </div>
+
+    <div id="ubicacion"></div>
+
+    <br>
+
+    <footer>
+        <!-- Footer del html (enlaces a los validadores) -->
+        <p>Autor: Sofía Suárez Fernández, estudiante de la Universidad de Oviedo, Asturias, España. Asignatura: Software
+            y Estándares para la Web. Curso: 2020/21</p>
+
+        <a href="https://validator.w3.org">
+            <img class="validator" src="images/HTML5.png" alt=" HTML5 Válido!" /></a>
+
+        <a href="http://jigsaw.w3.org/css-validator/">
+            <img class="validator" src="images/CSS3.png" alt="CSS Válido!" /></a>
+    </footer>
+</body>
+
+</html>
