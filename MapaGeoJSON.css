@@ -1,0 +1,71 @@
+/* 1 */
+body{
+    background-color: whitesmoke;
+    font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: black;
+}
+/* 1 */
+h1{
+    background-color:#FFD700; 
+    color: black;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;
+}
+/* 1 */
+a{
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* 10 */
+.icon{
+    width: 50px;
+    height: 50px;
+}
+/* 11 */
+a:hover{
+    cursor: pointer;
+}
+/* 10 */
+.validator{
+    height:63px;
+    width:64px;
+}
+/* 100 */
+#mapa{
+    height: 1000px;
+    width: 100%;
+    border-radius: 4px;
+}
+/* 10 */
+.custom-input-file {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto 0;
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    border-radius:4px;
+}
+/* 110 */
+.custom-input-file #archivoTexto{
+    border: 10000px solid transparent;
+    cursor: pointer;
+    font-size: 10000px;
+    margin: 0;
+    opacity: 0;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+}

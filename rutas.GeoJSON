@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -4.82, 43.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de San Martín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -4.80,43.43
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Portillo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.79,43.43
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Poo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.78, 43.43
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Osuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -5.11,37.17
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "El Saucejo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -5.06,36.47
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Convento de Caños"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.09,36.56
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Plaza de toros de Ronda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.09, 36.44
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Cádiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -5.33,36.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salinas romanas de Iptuci"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -5.55,36.75
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Museo Molino de Abajo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.51,36.76
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Ermita de las montañas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.57, 36.80
+        ]
+      }
+    }    
+	]
+}
